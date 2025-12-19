@@ -405,10 +405,10 @@ Note
 <section id="step-4-loading-files" class="level1 unnumbered">
 <h1 class="unnumbered">Step 4: Loading Files</h1>
 <p>Imagine we’ve collected leaf-trait data to look at the growth of seedlings from <strong>untreated</strong> (control) and <strong>calcium-treated</strong> sites. The additional calcium is hypothesised to increase the growth of the seedlings. The file is called <code>plant_calcium.csv</code> from the GitHub page. The original data with background explanation of the study is linked <a href="https://lter.github.io/lterdatasampler/articles/hbr_maples_vignette.html">here</a>.</p>
-<p>First, save the file from the <a href="https://github.com/nicholaswunz/ECS200">GitHub</a> page to your RStudio project folder (wherever you set your directory).</p>
+<p>First, save the file from the <a href="https://github.com/nicholaswunz/ECS200-Workshop">GitHub</a> page to your RStudio project folder (wherever you set your directory).</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load a CSV file</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>plant_calcium_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"C:/Users/75002992/OneDrive - Murdoch University/Teaching/ECS200 - Research Methods in Ecology/ECS200 - Workshop/data/plant_calcium.csv"</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>plant_calcium_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/nicholaswunz/ECS200-Workshop/refs/heads/main/data/plant_calcium.csv"</span>)</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># View the first few rows</span></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(plant_calcium_data)</span>

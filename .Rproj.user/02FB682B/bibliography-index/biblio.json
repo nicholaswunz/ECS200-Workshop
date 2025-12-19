@@ -1,0 +1,169 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1093/comjnl/27.2.97",
+            "ISSN": "0010-4620",
+            "URL": "https://doi.org/10.1093/comjnl/27.2.97",
+            "author": [
+                {
+                    "family": "Knuth",
+                    "given": "Donald E."
+                }
+            ],
+            "container-title": "Comput. J.",
+            "id": "knuth84",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1984,
+                        5
+                    ]
+                ]
+            },
+            "page": "97-111",
+            "publisher": "Oxford University Press, Inc.",
+            "publisher-place": "USA",
+            "title": "Literate programming",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "DOI": "10.1111/een.70015",
+            "author": [
+                {
+                    "family": "Farkas",
+                    "given": "Kate R"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Zachary A"
+                },
+                {
+                    "family": "King",
+                    "given": "James L"
+                },
+                {
+                    "family": "Nicotra",
+                    "given": "Adrienne B"
+                },
+                {
+                    "family": "Head",
+                    "given": "Megan L"
+                },
+                {
+                    "family": "Arnold",
+                    "given": "Pieter A"
+                }
+            ],
+            "container-title": "Ecological Entomology",
+            "genre": "Journal Article",
+            "id": "Farkas2025",
+            "issued": {
+                "date-parts": [
+                    [
+                        2025
+                    ]
+                ]
+            },
+            "publisher": "Wiley Online Library",
+            "title": "Combined heat and drought affect the abundance, composition and diversity of subalpine surface-active soil arthropod communities",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1890/0012-9658(2006)87[1267:ROSMTC]2.0.CO;2",
+            "author": [
+                {
+                    "family": "Juice",
+                    "given": "Stephanie M"
+                },
+                {
+                    "family": "Fahey",
+                    "given": "Timothy J"
+                },
+                {
+                    "family": "Siccama",
+                    "given": "Thomas G"
+                },
+                {
+                    "family": "Driscoll",
+                    "given": "Charles T"
+                },
+                {
+                    "family": "Denny",
+                    "given": "Ellen G"
+                },
+                {
+                    "family": "Eagar",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Cleavitt",
+                    "given": "Natalie L"
+                },
+                {
+                    "family": "Minocha",
+                    "given": "Rakesh"
+                },
+                {
+                    "family": "Richardson",
+                    "given": "Andrew D"
+                }
+            ],
+            "container-title": "Ecology",
+            "genre": "Journal Article",
+            "id": "Juice2006",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006
+                    ]
+                ]
+            },
+            "page": "1267-1280",
+            "publisher": "Wiley Online Library",
+            "title": "Response of sugar maple to calcium addition to northern hardwood forest",
+            "type": "article-journal",
+            "volume": "87"
+        },
+        {
+            "DOI": "doi.org/10.1023/B:BIOG.0000015787.44175.3f",
+            "author": [
+                {
+                    "family": "Peters",
+                    "given": "Stephen C"
+                },
+                {
+                    "family": "Blum",
+                    "given": "Joel D"
+                },
+                {
+                    "family": "Driscoll",
+                    "given": "Charles T"
+                },
+                {
+                    "family": "Likens",
+                    "given": "Gene E"
+                }
+            ],
+            "container-title": "Biogeochemistry",
+            "genre": "Journal Article",
+            "id": "Peters2004",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004
+                    ]
+                ]
+            },
+            "page": "309-329",
+            "publisher": "Springer",
+            "title": "Dissolution of wollastonite during the experimental manipulation of hubbard brook watershed 1",
+            "type": "article-journal",
+            "volume": "67"
+        }
+    ],
+    "project_biblios": [
+        "./bib/references.bib"
+    ]
+}
