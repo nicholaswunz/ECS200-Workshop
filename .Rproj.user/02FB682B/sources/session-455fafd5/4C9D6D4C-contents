@@ -279,7 +279,7 @@ Let's say we are interested in visualising at differences in stem length in calc
 ```{r load data, message=FALSE}
 
 # Load a CSV file
-plant_task_clean_data <- read_csv("C:/Users/75002992/OneDrive - Murdoch University/Teaching/ECS200 - Research Methods in Ecology/ECS200 - Workshop/data/plant_calcium_task.csv") %>%
+plant_task_clean_data <- read_csv("https://raw.githubusercontent.com/nicholaswunz/ECS200-Workshop/refs/heads/main/data/plant_calcium_task.csv") %>%
   dplyr::mutate(watershed = recode(watershed, "W2" = "W1"),
                 watershed = as.factor(watershed),
                 transect  = as.factor(transect)) %>%
@@ -640,7 +640,7 @@ Under the header “*Week 4 workshop - Descriptive statistics*”, complete the 
 library(tidyverse)
 
 # Load a CSV file
-plant_task_clean_data <- read_csv("C:/Users/75002992/OneDrive - Murdoch University/Teaching/ECS200 - Research Methods in Ecology/ECS200 - Workshop/data/plant_calcium_task.csv") %>%
+plant_task_clean_data <- read_csv("https://raw.githubusercontent.com/nicholaswunz/ECS200-Workshop/refs/heads/main/data/plant_calcium_task.csv") %>%
   dplyr::mutate(watershed = recode(watershed, "W2" = "W1"),
                 watershed = as.factor(watershed),
                 transect  = as.factor(transect)) %>%
@@ -804,14 +804,14 @@ ggplot() +
 
 Many of you might be working with environmental data (e.g. soil or air temperatures and humidity) collected from deployed data loggers. While, you may not not use the whole time series dataset for your study, it could useful to visualise the study period and highlight where you took your samples (e.g. using [`geom_vline()`](https://www.sthda.com/english/wiki/ggplot2-add-straight-lines-to-a-plot-horizontal-vertical-and-regression-lines).
 
-Here is a dataset of outside (EXT) and inside (DEEP) cave air temperature and humidity of two sites (MAM, YES). 
+Here is a dataset called `winter_clim_dat.csv` that includes outside (EXT) and inside (DEEP) cave air temperature and humidity of two sites (MAM, YES). 
 Using everything we learnt today, you can create a figure like this using the [`geom_line()`](https://r-graph-gallery.com/279-plotting-time-series-with-ggplot2.html) function and separating temperature and humidity by location (EXT, DEEP) and site (MAM, YES).
 
 The code below also includes ways of converting raw date values into meaningful values that R can interpret correctly (with [`as.POSIXct()`](https://rpubs.com/lexieorr34/943733) function). The link also discusses ways of dealing with missing and weird time series data.
 
 ```{r clim dat, warning=FALSE, message=FALSE}
 
-clim_raw <- read_csv("C:/Users/75002992/OneDrive - Murdoch University/Teaching/ECS200 - Research Methods in Ecology/ECS200 - Workshop/data/winter_clim_dat.csv") %>%
+clim_raw <- read_csv("https://raw.githubusercontent.com/nicholaswunz/ECS200-Workshop/refs/heads/main/data/winter_clim_dat.csv") %>%
   dplyr::mutate(date_time = as.POSIXct(date_time, format = "%d/%m/%Y %H:%M"), # convert character to date and time
                 DOY       = as.POSIXlt(date_time)$yday, # calculate day of the year
                 month     = format(as.Date(date_time, format = "%m/%d/%Y"),"%m"), # month as numeric

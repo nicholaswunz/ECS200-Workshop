@@ -552,7 +552,7 @@ Use the skills that you learnt in the previous practical and this weeks practica
 library(tidyverse)
 library(vegan)
 
-invert_raw <- read_csv("C:/Users/75002992/OneDrive - Murdoch University/Desktop/invert_exp_survey.csv")
+invert_raw <- read_csv("https://raw.githubusercontent.com/nicholaswunz/ECS200-Workshop/refs/heads/main/data/invert_exp_survey.csv")
 
 # Check for missing values in each column
 colSums(is.na(invert_raw)) # missing values
