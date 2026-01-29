@@ -14,7 +14,7 @@ Access the practicals [here](https://nicholaswu.quarto.pub/ecs200/). The practic
 | 6    | 30-Mar | A Rea   |  Chi-square and non-parametric tests                                                         |
 | 7    | **Study Week**                                                                                                  |
 | 8    | 13-Apr | A Rea   |  Multiple regression                                                                         |
-| 9    | 20-Apr | N Wu    |  Mid-semester test                                                                           | 
+| 9    | 20-Apr |                                                                                                        | 
 | 10   | **Study Week**                                                                                                  |     
 | 11   | 04-May | A Rea   |  Generalised linear models                                                                   |
 | 12   | 11-May | A Rea   |  Extensions to GLMs                                                                          |
