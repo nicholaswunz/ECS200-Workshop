@@ -13,7 +13,7 @@ Access the practicals [here](https://nicholaswu.quarto.pub/ecs200/). The practic
 | 5    | 23-Mar | A Rea   | [t-test, ANOVA, simple regression](https://nicholaswu.quarto.pub/ecs200/week5_inference.html)        |
 | 6    | 30-Mar | A Rea   | [Chi-square and non-parametric tests](https://nicholaswu.quarto.pub/ecs200/week6_nonparametric.html) |
 | 7    | **Study Week**                                                                                                          |
-| 8    | 13-Apr | A Rea   |  Multiple regression                                                                                 |
+| 8    | 13-Apr | A Rea   | [Multiple regression](https://nicholaswu.quarto.pub/ecs200/week8_multivariate.html)                  |
 | 9    | 20-Apr |                                                                                                                | 
 | 10   | **Study Week**                                                                                                          |     
 | 11   | 04-May | A Rea   |  Generalised linear models                                                                           |
