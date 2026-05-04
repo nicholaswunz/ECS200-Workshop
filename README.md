@@ -16,5 +16,5 @@ Access the practicals [here](https://nicholaswu.quarto.pub/ecs200/). The practic
 | 8    | 13-Apr | A Rea   | [Multiple regression](https://nicholaswu.quarto.pub/ecs200/week8_multivariate.html)                  |
 | 9    | 20-Apr |                                                                                                                | 
 | 10   | **Study Week**                                                                                                          |     
-| 11   | 04-May | A Rea   |  Generalised linear models                                                                           |
-| 12   | 11-May | A Rea   |  Extensions to GLMs                                                                                  |
+| 11   | 04-May | A Rea   |  [Generalised linear models](https://nicholaswu.quarto.pub/ecs200/week11_GLM.html)                   |
+| 12   | 11-May | A Rea   |  [Random effects](https://nicholaswu.quarto.pub/ecs200/week12_random_effects.html)                   |
